@@ -1,26 +1,24 @@
-![](https://img.imgdb.cn/item/60858d60d1a9ae528fafd469.jpg)
-> Site: <https://developer.android.google.cn/guide/topics/data/backup>
-
 # BackupRestoreApp
 Demo that used to show how to use [Android Backup Feature](https://developer.android.google.cn/guide/topics/data/backup) with `BackupAgent` and `BackupManager`.
 
 ## Screenshot
-![](https://img.imgdb.cn/item/60858e7fd1a9ae528fbf4c8b.png)
+<img src="https://img.imgdb.cn/item/60858e7fd1a9ae528fbf4c8b.png" alt="BP Demo" height="40%" width="40%">
 
 ## Init data
-![](https://img.imgdb.cn/item/60858e9ed1a9ae528fc0f995.jpg)
+<img src="https://img.imgdb.cn/item/60858e9ed1a9ae528fc0f995.jpg" alt="BP Demo" height="40%" width="40%">
 
 ## Key-value backup mode
-![](https://img.imgdb.cn/item/60858edbd1a9ae528fc46122.jpg)
+<img src="https://img.imgdb.cn/item/60858edbd1a9ae528fc46122.jpg" alt="BP Demo" height="40%" width="40%">
 
 ## Auto backup mode
-![](https://img.imgdb.cn/item/60858e90d1a9ae528fc03419.jpg)
+<img src="https://img.imgdb.cn/item/60858e90d1a9ae528fc03419.jpg" alt="BP Demo" height="40%" width="40%">
 
 ## Auto backup mode customization
-![](https://img.imgdb.cn/item/60858f08d1a9ae528fc70d3c.jpg)
+<img src="https://img.imgdb.cn/item/60858f08d1a9ae528fc70d3c.jpg" alt="BP Demo" height="40%" width="40%">
 
 ## Backup功能使用总结
-![](https://img.imgdb.cn/item/60858e2dd1a9ae528fbaee44.jpg)
+<img src="https://img.imgdb.cn/item/60858e2dd1a9ae528fbaee44.jpg" alt="BP Demo" height="40%" width="40%">
+
 
 ## Android Backup Feature's history
 | 版本        | 变化内容  |
@@ -47,3 +45,25 @@ Demo that used to show how to use [Android Backup Feature](https://developer.and
 
 ## :orange_book:　My blog
 <https://blog.csdn.net/allisonchen>
+
+MIT License
+
+Copyright (c) 2021 Ellison Chan
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
