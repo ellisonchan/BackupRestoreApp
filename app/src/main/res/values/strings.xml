@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Backup</string>
+    <string name="btn_init">Initialize data</string>
+    <string name="btn_load">Load data</string>
+    <string name="btn_backup">Backup</string>
+    <string name="btn_restore">Restore</string>
+    <string name="restore_skip">Restore skipped due to backup device not correct.</string>
+</resources>

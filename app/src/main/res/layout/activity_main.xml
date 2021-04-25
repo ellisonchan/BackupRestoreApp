@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/data_layout"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginStart="16dp"
+        android:background="#77ac98"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Data content"/>
+
+        <ImageView
+            android:id="@+id/data_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            tools:src="@drawable/ic_image_preset"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/file_layout"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:background="#d5c59f"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#77ac98"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="File content"/>
+
+        <TextView
+            android:id="@+id/file_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            tools:text="Data path:/serialized bean"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/db_layout"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:background="#c99979"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/data_layout"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#77ac98"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="Database content"/>
+
+        <TextView
+            android:id="@+id/db_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            tools:text="Database content:persisted bean"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sp_layout"
+        android:layout_width="180dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="16dp"
+        android:background="#afb4db"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/file_layout"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#77ac98"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="Sp content"/>
+
+        <TextView
+            android:id="@+id/sp_widget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            tools:text="Sp content:persisted bean"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_init"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/db_layout"
+        android:backgroundTint="#585eaa"
+        android:onClick="onButtonClick"
+        android:enabled="false"
+        android:text="@string/btn_init"/>
+
+    <Button
+        android:id="@+id/btn_backup"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_init"
+        android:backgroundTint="#426ab3"
+        android:onClick="onButtonClick"
+        android:text="@string/btn_backup"/>
+
+    <Button
+        android:id="@+id/btn_restore"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_init"
+        android:backgroundTint="#78a355"
+        android:onClick="onButtonClick"
+        android:text="@string/btn_restore"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

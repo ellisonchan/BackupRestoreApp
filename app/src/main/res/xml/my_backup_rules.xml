@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- domain指定root代表data根目录下的文件  -->
+    <include domain="root" path="Post.jpg" requireFlags="clientSideEncryption"/>
+    <!-- path里指定.意味着该目录下所有文件适用备份或不备份的规则  -->
+    <include domain="sharedpref" path="."/>
+
+    <!-- file和db目录不参与备份 -->
+    <exclude domain="file" path="."/>
+    <exclude domain="database" path="."/>
+</full-backup-content>
