@@ -1,19 +1,20 @@
 # BackupRestoreApp
 Demo that used to show how to use [Android Backup Feature](https://developer.android.google.cn/guide/topics/data/backup) with `BackupAgent` and `BackupManager`.
 
-## Screenshot
+## :camera_flash:Screenshot
+### Base screen
 <img src="https://img.imgdb.cn/item/60858e7fd1a9ae528fbf4c8b.png" alt="BP Demo" height="40%" width="40%">
 
-## Init data
+### Init data
 <img src="https://img.imgdb.cn/item/60858e9ed1a9ae528fc0f995.jpg" alt="BP Demo" height="40%" width="40%">
 
-## Key-value backup mode
+### Key-value backup mode
 <img src="https://img.imgdb.cn/item/60858edbd1a9ae528fc46122.jpg" alt="BP Demo" height="40%" width="40%">
 
-## Auto backup mode
+### Auto backup mode
 <img src="https://img.imgdb.cn/item/60858e90d1a9ae528fc03419.jpg" alt="BP Demo" height="40%" width="40%">
 
-## Auto backup mode customization
+### Auto backup mode customization
 <img src="https://img.imgdb.cn/item/60858f08d1a9ae528fc70d3c.jpg" alt="BP Demo" height="40%" width="40%">
 
 ## Backup功能使用总结
@@ -46,6 +47,7 @@ Demo that used to show how to use [Android Backup Feature](https://developer.and
 ## :orange_book:　My blog
 <https://blog.csdn.net/allisonchen>
 
+## :copyright: License
 MIT License
 
 Copyright (c) 2021 Ellison Chan
